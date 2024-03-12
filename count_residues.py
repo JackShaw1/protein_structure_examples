@@ -15,7 +15,7 @@ def count_residues(structure):
 
 # Load PDB file
 parser = PDBParser()
-structure = parser.get_structure("structure", "your_pdb_file.pdb")
+structure = parser.get_structure("structure", "AF-P34730-F1-model_v4_example.pdb")
 
 # Count residues
 residue_counts = count_residues(structure)
