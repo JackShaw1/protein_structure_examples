@@ -1,4 +1,4 @@
-from Bio.PDB import PDBParser, Selection
+from Bio.PDB import PDBParser
 
 # Function to count residues
 def count_residues(structure):
